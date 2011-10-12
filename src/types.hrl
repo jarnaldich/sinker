@@ -1,0 +1,2 @@
+-type server_ref() :: atom() | {name, atom()} | {global, term()} | pid().
+-type start_link_res() :: {ok, pid()} | ignore | {error, any()}.
